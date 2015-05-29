@@ -44,10 +44,12 @@
     <Compile Include="MatrixRotation\MatrixRotationSolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SwapNumbers\SwapNumbersSolution.cs" />
+    <Compile Include="WithoutRepititions\WithoutRepititionsSolution.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MatrixRotation\file.txt" />
     <Content Include="SwapNumbers\file.txt" />
+    <Content Include="WithoutRepititions\file.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
