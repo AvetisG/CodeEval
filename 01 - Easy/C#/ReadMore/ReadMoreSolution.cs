@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace CodeEvalSolutions.SwapNumbers
+namespace CodeEvalSolutions.ReadMore
 {
-    class SwapNumbersSolution
+    class ReadMoreSolution
     {
-        static void _Main(string[] args)
+        static void Main(string[] args)
         {
             if (args[0] != String.Empty)
             {
@@ -17,15 +17,23 @@ namespace CodeEvalSolutions.SwapNumbers
                 {
                     if (singleLine != String.Empty)
                     {
-                        var alphanumericArray = singleLine.Split(' ');
-
-                        var alphanumericArraySwapped = alphanumericArray.Select(
-                            alphanumbericValue => alphanumbericValue.Last() + alphanumbericValue.Substring(1, alphanumbericValue.Length - 2) + alphanumbericValue.First()).ToList();
-
-                        Console.WriteLine(String.Join(" ", alphanumericArraySwapped));
+                        Console.WriteLine(singleLine.Length <= 55 ? singleLine : GetShortenedString(singleLine) + "... <Read More>");
                     }
                 }
             }
+        }
+
+        private static string GetShortenedString(string singleLine)
+        {
+            var shortenedLine = singleLine.Substring(0, 40);
+
+            if (!shortenedLine.Contains(" ")) return shortenedLine;
+            
+            List<string> array = shortenedLine.Split(' ').ToList();
+
+            array.RemoveAt(array.Count - 1);
+
+            return array.Count() > 1 ? String.Join(" ", array) : String.Join("", array);
         }
 
         static IEnumerable<string> ReadFile(string filePath)
