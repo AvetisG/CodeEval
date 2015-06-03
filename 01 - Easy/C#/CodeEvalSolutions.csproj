@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AgeDistribution\AgeDistributionSolution.cs" />
+    <Compile Include="TheMajorElement\TheMajorElementSolution.cs" />
     <Compile Include="MatrixRotation\MatrixRotationSolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadMore\ReadMoreSolution.cs" />
@@ -53,6 +54,7 @@
     <Content Include="MatrixRotation\file.txt" />
     <Content Include="ReadMore\file.txt" />
     <Content Include="SwapNumbers\file.txt" />
+    <Content Include="TheMajorElement\file.txt" />
     <Content Include="WithoutRepititions\file.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
