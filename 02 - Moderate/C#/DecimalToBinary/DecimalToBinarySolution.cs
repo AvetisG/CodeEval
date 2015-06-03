@@ -17,33 +17,30 @@ namespace CodeEvalSolutions.DecimalToBinary
 				{
 					if (singleLine != String.Empty)
 					{
-						if (singleLine != String.Empty)
+						int givenNumber = int.Parse(singleLine);
+
+						string remainder = "";
+
+						if (givenNumber == 0)
 						{
-							int givenNumber = int.Parse(singleLine);
-
-							string remainder = "";
-
-							if (givenNumber == 0)
+							remainder = "0";
+						}
+						else
+						{
+							while (givenNumber >= 1)
 							{
-								remainder = "0";
-							}
-							else
-							{
-								while (givenNumber >= 1)
-								{
-									int quotient = givenNumber/2;
-									remainder += (givenNumber%2).ToString();
-									givenNumber = quotient;
-								}	
-							}
+								int quotient = givenNumber/2;
+								remainder += (givenNumber%2).ToString();
+								givenNumber = quotient;
+							}	
+						}
 							
 
-							string binaryRepresentation = "";
+						string binaryRepresentation = "";
 
-							for (int i = remainder.Length - 1; i >= 0; i--) binaryRepresentation = binaryRepresentation + remainder[i];
+						for (int i = remainder.Length - 1; i >= 0; i--) binaryRepresentation = binaryRepresentation + remainder[i];
 
-							Console.WriteLine(binaryRepresentation);
-						}
+						Console.WriteLine(binaryRepresentation);
 					}
 				}
 			}
