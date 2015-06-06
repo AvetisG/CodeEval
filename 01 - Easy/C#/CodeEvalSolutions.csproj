@@ -45,6 +45,7 @@
     <Compile Include="HiddenDigits\HiddenDigitsSolution.cs" />
     <Compile Include="LongestWord\LongestWordSolution.cs" />
     <Compile Include="MixedContent\MixedContentSolution.cs" />
+    <Compile Include="MultiplicationTable\MultiplicationTableSolution.cs" />
     <Compile Include="MultiplyLists\MultiplyListsSolution.cs" />
     <Compile Include="SplitTheNumber\SplitTheNumberSolution.cs" />
     <Compile Include="TheMajorElement\TheMajorElementSolution.cs" />
