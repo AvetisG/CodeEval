@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="AgeDistribution\AgeDistributionSolution.cs" />
     <Compile Include="HiddenDigits\HiddenDigitsSolution.cs" />
+    <Compile Include="LongestWord\LongestWordSolution.cs" />
     <Compile Include="MixedContent\MixedContentSolution.cs" />
     <Compile Include="MultiplyLists\MultiplyListsSolution.cs" />
     <Compile Include="SplitTheNumber\SplitTheNumberSolution.cs" />
@@ -56,6 +57,7 @@
   <ItemGroup>
     <Content Include="AgeDistribution\file.txt" />
     <Content Include="HiddenDigits\file.txt" />
+    <Content Include="LongestWord\file.txt" />
     <Content Include="MatrixRotation\file.txt" />
     <Content Include="MixedContent\file.txt" />
     <Content Include="MultiplyLists\file.txt" />
