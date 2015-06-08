@@ -54,6 +54,7 @@
     <Compile Include="ReadMore\ReadMoreSolution.cs" />
     <Compile Include="SwapNumbers\SwapNumbersSolution.cs" />
     <Compile Include="WithoutRepititions\WithoutRepititionsSolution.cs" />
+    <Compile Include="WordToDigit\WordToDigitSolution.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AgeDistribution\file.txt" />
@@ -67,6 +68,7 @@
     <Content Include="SwapNumbers\file.txt" />
     <Content Include="TheMajorElement\file.txt" />
     <Content Include="WithoutRepititions\file.txt" />
+    <Content Include="WordToDigit\file.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
