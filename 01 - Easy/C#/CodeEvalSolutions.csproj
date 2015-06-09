@@ -47,6 +47,7 @@
     <Compile Include="MixedContent\MixedContentSolution.cs" />
     <Compile Include="MultiplicationTable\MultiplicationTableSolution.cs" />
     <Compile Include="MultiplyLists\MultiplyListsSolution.cs" />
+    <Compile Include="SlangFlavor\SlangFlavorSolution.cs" />
     <Compile Include="SplitTheNumber\SplitTheNumberSolution.cs" />
     <Compile Include="TheMajorElement\TheMajorElementSolution.cs" />
     <Compile Include="MatrixRotation\MatrixRotationSolution.cs" />
@@ -64,6 +65,7 @@
     <Content Include="MixedContent\file.txt" />
     <Content Include="MultiplyLists\file.txt" />
     <Content Include="ReadMore\file.txt" />
+    <Content Include="SlangFlavor\file.txt" />
     <Content Include="SplitTheNumber\file.txt" />
     <Content Include="SwapNumbers\file.txt" />
     <Content Include="TheMajorElement\file.txt" />

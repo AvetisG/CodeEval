@@ -4,7 +4,7 @@ namespace CodeEvalSolutions.MultiplicationTable
 {
     class MultiplicationTableSolution
     {
-        static void Main(string[] args)
+        static void _Main(string[] args)
         {
             string[,] multiplicationTable = new string[12, 12];
             
