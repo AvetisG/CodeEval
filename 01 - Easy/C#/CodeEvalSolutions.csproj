@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AgeDistribution\AgeDistributionSolution.cs" />
+    <Compile Include="EvenNumbers\EvenNumbersSolution.cs" />
     <Compile Include="HiddenDigits\HiddenDigitsSolution.cs" />
     <Compile Include="LongestWord\LongestWordSolution.cs" />
     <Compile Include="LowestUniqueNumber\LowestUniqueNumberSolution.cs" />
@@ -60,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AgeDistribution\file.txt" />
+    <Content Include="EvenNumbers\file.txt" />
     <Content Include="HiddenDigits\file.txt" />
     <Content Include="LongestWord\file.txt" />
     <Content Include="LowestUniqueNumber\file.txt" />
