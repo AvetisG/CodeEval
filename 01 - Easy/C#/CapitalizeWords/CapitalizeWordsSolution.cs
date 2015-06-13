@@ -39,7 +39,7 @@ namespace CodeEvalSolutions.CapitalizeWords
 						individualWordsTitleCasesList.Add(individualWord);
 					}
 				}
-		}
+		    }
 
 			return String.Join(" ", individualWordsTitleCasesList);
 		}
