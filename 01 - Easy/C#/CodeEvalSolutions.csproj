@@ -52,6 +52,8 @@
     <Compile Include="MixedContent\MixedContentSolution.cs" />
     <Compile Include="MultiplicationTable\MultiplicationTableSolution.cs" />
     <Compile Include="MultiplyLists\MultiplyListsSolution.cs" />
+    <Compile Include="NModM\NModMSolution.cs" />
+    <Compile Include="PenultimateWord\PenultimateWordSolution.cs" />
     <Compile Include="SlangFlavor\SlangFlavorSolution.cs" />
     <Compile Include="SplitTheNumber\SplitTheNumberSolution.cs" />
     <Compile Include="SwapCase\SwapCaseSolution.cs" />
@@ -75,6 +77,8 @@
     <Content Include="MatrixRotation\file.txt" />
     <Content Include="MixedContent\file.txt" />
     <Content Include="MultiplyLists\file.txt" />
+    <Content Include="NModM\file.txt" />
+    <Content Include="PenultimateWord\file.txt" />
     <Content Include="ReadMore\file.txt" />
     <Content Include="SlangFlavor\file.txt" />
     <Content Include="SplitTheNumber\file.txt" />
