@@ -55,6 +55,7 @@
     <Compile Include="NModM\NModMSolution.cs" />
     <Compile Include="PenultimateWord\PenultimateWordSolution.cs" />
     <Compile Include="SelfDescribingNumbers\SelfDescribingNumbersSolution.cs" />
+    <Compile Include="SimpleSorting\SimpleSortingSolution.cs" />
     <Compile Include="SlangFlavor\SlangFlavorSolution.cs" />
     <Compile Include="SplitTheNumber\SplitTheNumberSolution.cs" />
     <Compile Include="SwapCase\SwapCaseSolution.cs" />
@@ -82,6 +83,7 @@
     <Content Include="PenultimateWord\file.txt" />
     <Content Include="ReadMore\file.txt" />
     <Content Include="SelfDescribingNumbers\file.txt" />
+    <Content Include="SimpleSorting\file.txt" />
     <Content Include="SlangFlavor\file.txt" />
     <Content Include="SplitTheNumber\file.txt" />
     <Content Include="SwapCase\file.txt" />
