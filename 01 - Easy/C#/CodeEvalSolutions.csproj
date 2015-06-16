@@ -55,6 +55,7 @@
     <Compile Include="MultiplyLists\MultiplyListsSolution.cs" />
     <Compile Include="NModM\NModMSolution.cs" />
     <Compile Include="PenultimateWord\PenultimateWordSolution.cs" />
+    <Compile Include="RightmostChar\RightMostCharSolution.cs" />
     <Compile Include="RomanNumerals\RomanNumeralsSolution.cs" />
     <Compile Include="SelfDescribingNumbers\SelfDescribingNumbersSolution.cs" />
     <Compile Include="SimpleSorting\SimpleSortingSolution.cs" />
@@ -85,6 +86,7 @@
     <Content Include="NModM\file.txt" />
     <Content Include="PenultimateWord\file.txt" />
     <Content Include="ReadMore\file.txt" />
+    <Content Include="RightmostChar\file.txt" />
     <Content Include="RomanNumerals\file.txt" />
     <Content Include="SelfDescribingNumbers\file.txt" />
     <Content Include="SimpleSorting\file.txt" />
