@@ -54,6 +54,7 @@
     <Compile Include="MultiplyLists\MultiplyListsSolution.cs" />
     <Compile Include="NModM\NModMSolution.cs" />
     <Compile Include="PenultimateWord\PenultimateWordSolution.cs" />
+    <Compile Include="RomanNumerals\RomanNumeralsSolution.cs" />
     <Compile Include="SelfDescribingNumbers\SelfDescribingNumbersSolution.cs" />
     <Compile Include="SimpleSorting\SimpleSortingSolution.cs" />
     <Compile Include="SlangFlavor\SlangFlavorSolution.cs" />
