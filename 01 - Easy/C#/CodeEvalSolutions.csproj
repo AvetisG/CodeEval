@@ -46,6 +46,7 @@
     <Compile Include="CompressedSequence\CompressedSequenceSolution.cs" />
     <Compile Include="EvenNumbers\EvenNumbersSolution.cs" />
     <Compile Include="FindAWriter\FindAWriterSolution.cs" />
+    <Compile Include="HexToDecimal\HexToDecimalSolution.cs" />
     <Compile Include="HiddenDigits\HiddenDigitsSolution.cs" />
     <Compile Include="LongestWord\LongestWordSolution.cs" />
     <Compile Include="LowestUniqueNumber\LowestUniqueNumberSolution.cs" />
@@ -74,6 +75,7 @@
     <Content Include="CompressedSequence\file.txt" />
     <Content Include="EvenNumbers\file.txt" />
     <Content Include="FindAWriter\file.txt" />
+    <Content Include="HexToDecimal\file.txt" />
     <Content Include="HiddenDigits\file.txt" />
     <Content Include="LongestWord\file.txt" />
     <Content Include="LowestUniqueNumber\file.txt" />
@@ -83,6 +85,7 @@
     <Content Include="NModM\file.txt" />
     <Content Include="PenultimateWord\file.txt" />
     <Content Include="ReadMore\file.txt" />
+    <Content Include="RomanNumerals\file.txt" />
     <Content Include="SelfDescribingNumbers\file.txt" />
     <Content Include="SimpleSorting\file.txt" />
     <Content Include="SlangFlavor\file.txt" />
