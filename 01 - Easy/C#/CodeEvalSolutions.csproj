@@ -63,6 +63,7 @@
     <Compile Include="SimpleSorting\SimpleSortingSolution.cs" />
     <Compile Include="SlangFlavor\SlangFlavorSolution.cs" />
     <Compile Include="SplitTheNumber\SplitTheNumberSolution.cs" />
+    <Compile Include="StringMask\StringMaskSolution.cs" />
     <Compile Include="SwapCase\SwapCaseSolution.cs" />
     <Compile Include="TheMajorElement\TheMajorElementSolution.cs" />
     <Compile Include="MatrixRotation\MatrixRotationSolution.cs" />
@@ -96,6 +97,7 @@
     <Content Include="SimpleSorting\file.txt" />
     <Content Include="SlangFlavor\file.txt" />
     <Content Include="SplitTheNumber\file.txt" />
+    <Content Include="StringMask\file.txt" />
     <Content Include="SwapCase\file.txt" />
     <Content Include="SwapNumbers\file.txt" />
     <Content Include="TheMajorElement\file.txt" />
