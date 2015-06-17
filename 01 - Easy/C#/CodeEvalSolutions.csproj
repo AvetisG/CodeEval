@@ -45,6 +45,7 @@
     <Compile Include="CapitalizeWords\CapitalizeWordsSolution.cs" />
     <Compile Include="CompressedSequence\CompressedSequenceSolution.cs" />
     <Compile Include="EvenNumbers\EvenNumbersSolution.cs" />
+    <Compile Include="FileSize\FileSizeSolution.cs" />
     <Compile Include="FindAWriter\FindAWriterSolution.cs" />
     <Compile Include="HexToDecimal\HexToDecimalSolution.cs" />
     <Compile Include="HiddenDigits\HiddenDigitsSolution.cs" />
