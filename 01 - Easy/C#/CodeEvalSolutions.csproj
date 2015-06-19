@@ -59,6 +59,7 @@
     <Compile Include="OddNumbers\OddNumbersSolution.cs" />
     <Compile Include="PenultimateWord\PenultimateWordSolution.cs" />
     <Compile Include="RightmostChar\RightMostCharSolution.cs" />
+    <Compile Include="RollerCoaster\RollerCoasterSolution.cs" />
     <Compile Include="RomanNumerals\RomanNumeralsSolution.cs" />
     <Compile Include="SelfDescribingNumbers\SelfDescribingNumbersSolution.cs" />
     <Compile Include="SetIntersection\SetIntersectionSolution.cs" />
@@ -94,6 +95,7 @@
     <Content Include="PenultimateWord\file.txt" />
     <Content Include="ReadMore\file.txt" />
     <Content Include="RightmostChar\file.txt" />
+    <Content Include="RollerCoaster\file.txt" />
     <Content Include="RomanNumerals\file.txt" />
     <Content Include="SelfDescribingNumbers\file.txt" />
     <Content Include="SetIntersection\file.txt" />
