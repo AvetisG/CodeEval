@@ -1,7 +1,4 @@
-# CodeEval Solutions [![Build Status][2]][1]
-
-  [1]: https://ci.appveyor.com/project/AvetisG/codeeval
-  [2]: https://ci.appveyor.com/api/projects/status/litibevy649cem63?svg=true
+# CodeEval Solutions
 
 These are the solutions to CodeEval's challenges ranking from easy, moderate to hard. In each you will find solutions for specific problems. My goal is to keep adding solutions in different languages for more variety. As for now all of the solutions are written in C#.
 
