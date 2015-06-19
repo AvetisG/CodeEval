@@ -7,11 +7,11 @@ namespace CodeEvalSolutions.BeautifulStrings
 {
 	class BeautifulStringsSolution
 	{
-		static void _Main(string[] args)
+		static void Main(string[] args)
 		{
-            //if (args[0] != String.Empty)
+			if (args[0] != String.Empty)
 			{
-				IEnumerable<string> linesOfFile = ReadFile("C:/Users/ghukasyana/Documents/CodeEval/01 - Easy/C#/BeautifulStrings/file.txt");
+				IEnumerable<string> linesOfFile = ReadFile(args[0]);
 
 				foreach (var lineOfFile in linesOfFile)
 				{
@@ -20,34 +20,37 @@ namespace CodeEvalSolutions.BeautifulStrings
 			}
 		}
 
-	    private static string GetStringBeauty(char[] characterCollection)
-	    {
-	        int beautifulStringValue = 0;
+		private static string GetStringBeauty(char[] characterCollection)
+		{
+			int beautifulStringValue = 0;
 
-            Dictionary<int, char> characterOccurance = new Dictionary<int, char>();
+			Dictionary<char, int> characterOccurance = new Dictionary<char, int>();
 
-            foreach (var character in characterCollection)
-	        {
-                if (!characterOccurance.ContainsKey(characterCollection.Count(a => a == character)))
-	            {
-                    characterOccurance.Add(characterCollection.Count(a => a == character), character);
-	            }
-	        }
+			foreach (var character in characterCollection)
+			{
+				if (character != ' ' && Char.IsLetter(character))
+				{
+					if (!characterOccurance.ContainsKey(character))
+					{
+						characterOccurance.Add(character, characterCollection.Count(a => a == character));
+					}
+				}
+			}
 
-            IOrderedEnumerable<KeyValuePair<int, char>> orderedCharacterOccurance = characterOccurance.OrderByDescending(a => a.Key);
-	        int num = 26;
+			IOrderedEnumerable<KeyValuePair<char, int>> orderedCharacterOccurance = characterOccurance.OrderByDescending(a => a.Value);
+			int num = 26;
 
-            foreach (var orderedCharacter in orderedCharacterOccurance)
-	        {
-                beautifulStringValue = beautifulStringValue + (num * orderedCharacter.Key);
+			foreach (var orderedCharacter in orderedCharacterOccurance)
+			{
+				beautifulStringValue = beautifulStringValue + (num * orderedCharacter.Value);
 
-	            num = num - 1;
-	        }
+				num = num - 1;
+			}
 
-	        return "" + beautifulStringValue;
-	    }
+			return "" + beautifulStringValue;
+		}
 
-	    public static string FirstCharToUpper(string input)
+		public static string FirstCharToUpper(string input)
 		{
 			return input.First().ToString().ToUpper() + input.Substring(1);
 		}

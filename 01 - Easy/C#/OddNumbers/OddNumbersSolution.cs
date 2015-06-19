@@ -4,7 +4,7 @@ namespace CodeEvalSolutions.OddNumbers
 {
 	class OddNumbersSolution
 	{
-		static void Main(string[] args)
+		static void _Main(string[] args)
 		{
 			for (int i = 1; i <= 99; i++)
 			{
