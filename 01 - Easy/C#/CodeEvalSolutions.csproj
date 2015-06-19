@@ -56,6 +56,7 @@
     <Compile Include="MultiplicationTable\MultiplicationTableSolution.cs" />
     <Compile Include="MultiplyLists\MultiplyListsSolution.cs" />
     <Compile Include="NModM\NModMSolution.cs" />
+    <Compile Include="OddNumbers\OddNumbersSolution.cs" />
     <Compile Include="PenultimateWord\PenultimateWordSolution.cs" />
     <Compile Include="RightmostChar\RightMostCharSolution.cs" />
     <Compile Include="RomanNumerals\RomanNumeralsSolution.cs" />
