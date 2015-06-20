@@ -23,6 +23,7 @@ namespace CodeEvalSolutions.BeautifulStrings
 		private static string GetStringBeauty(char[] characterCollection)
 		{
 			int beautifulStringValue = 0;
+            int beautyValue = 26;
 
 			Dictionary<char, int> characterOccurance = new Dictionary<char, int>();
 
@@ -38,23 +39,16 @@ namespace CodeEvalSolutions.BeautifulStrings
 			}
 
 			IOrderedEnumerable<KeyValuePair<char, int>> orderedCharacterOccurance = characterOccurance.OrderByDescending(a => a.Value);
-			int num = 26;
 
 			foreach (var orderedCharacter in orderedCharacterOccurance)
 			{
-				beautifulStringValue = beautifulStringValue + (num * orderedCharacter.Value);
+				beautifulStringValue = beautifulStringValue + (beautyValue * orderedCharacter.Value);
 
-				num = num - 1;
+				beautyValue = beautyValue - 1;
 			}
 
-			return "" + beautifulStringValue;
+			return beautifulStringValue.ToString();
 		}
-
-		public static string FirstCharToUpper(string input)
-		{
-			return input.First().ToString().ToUpper() + input.Substring(1);
-		}
-
 
 		static IEnumerable<string> ReadFile(string filePath)
 		{
