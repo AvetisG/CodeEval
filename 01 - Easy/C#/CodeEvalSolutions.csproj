@@ -73,6 +73,7 @@
     <Compile Include="StringMask\StringMaskSolution.cs" />
     <Compile Include="SumOfIntegersFromFile\SumOfIntegersFromFileSolution.cs" />
     <Compile Include="SwapCase\SwapCaseSolution.cs" />
+    <Compile Include="SwapElements\SwapElementsSolution.cs" />
     <Compile Include="TheMajorElement\TheMajorElementSolution.cs" />
     <Compile Include="MatrixRotation\MatrixRotationSolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -114,6 +115,7 @@
     <Content Include="StringMask\file.txt" />
     <Content Include="SumOfIntegersFromFile\file.txt" />
     <Content Include="SwapCase\file.txt" />
+    <Content Include="SwapElements\file.txt" />
     <Content Include="SwapNumbers\file.txt" />
     <Content Include="TheMajorElement\file.txt" />
     <Content Include="UniqueElement\file.txt" />
