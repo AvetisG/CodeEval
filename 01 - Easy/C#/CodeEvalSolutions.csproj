@@ -46,9 +46,11 @@
     <Compile Include="Big Digits\BigDigitsSolution.cs" />
     <Compile Include="CapitalizeWords\CapitalizeWordsSolution.cs" />
     <Compile Include="CompressedSequence\CompressedSequenceSolution.cs" />
+    <Compile Include="DataRecovery\DataRecoverySolution.cs" />
     <Compile Include="EvenNumbers\EvenNumbersSolution.cs" />
     <Compile Include="FileSize\FileSizeSolution.cs" />
     <Compile Include="FindAWriter\FindAWriterSolution.cs" />
+    <Compile Include="HappyNumbers\HappyNumbersSolution.cs" />
     <Compile Include="HexToDecimal\HexToDecimalSolution.cs" />
     <Compile Include="HiddenDigits\HiddenDigitsSolution.cs" />
     <Compile Include="LongestWord\LongestWordSolution.cs" />
@@ -84,8 +86,10 @@
     <Content Include="Big Digits\file.txt" />
     <Content Include="CapitalizeWords\file.txt" />
     <Content Include="CompressedSequence\file.txt" />
+    <Content Include="DataRecovery\file.txt" />
     <Content Include="EvenNumbers\file.txt" />
     <Content Include="FindAWriter\file.txt" />
+    <Content Include="HappyNumbers\file.txt" />
     <Content Include="HexToDecimal\file.txt" />
     <Content Include="HiddenDigits\file.txt" />
     <Content Include="LongestWord\file.txt" />
