@@ -9,11 +9,11 @@ namespace CodeEvalSolutions.RacingChars
     {
         static void Main(string[] args)
         {
-            //if (args[0] != String.Empty)
+            if (args[0] != String.Empty)
             {
-                IEnumerable<string> linesInAFile = ReadFile("C:/Users/ghukasyana/Documents/CodeEval/01 - Easy/C#/RacingChars/file.txt");
+                IEnumerable<string> linesInAFile = ReadFile(args[0]);
 
-                var checkpointsPassedMap = PassCheckPoints(linesInAFile.ToList());
+                var checkpointsPassedMap = GetThroughMap(linesInAFile.ToList());
 
                 PrintMap(checkpointsPassedMap);
             }
@@ -27,24 +27,45 @@ namespace CodeEvalSolutions.RacingChars
             }
         }
 
-        private static IEnumerable<string> PassCheckPoints(List<string> linesInAFile)
+        private static IEnumerable<string> GetThroughMap(List<string> linesInAFile)
         {
             List<string> checkpointsPassedMap = new List<string>();
 
             for (int i=0; i<linesInAFile.Count(); i++)
             {
-                var firstPath = linesInAFile[i];
-                var secondPath = linesInAFile[i+1];
-
-                var enteryPointFirstPath = firstPath.IndexOf('_');
-
-                var enteryPointSecondPath = secondPath.IndexOf('_');
-                var checkPointSecondPath = secondPath.IndexOf('C');
-
-                                                                                     
+                if (i==0)
+                {
+                    checkpointsPassedMap.Add(linesInAFile[i].Replace(linesInAFile[i].IndexOf('C') == -1 ? "_" : "C", "|"));
+                }
+                else
+                {
+                    GetThroughCheckPoint(linesInAFile, i, checkpointsPassedMap);
+                }                                                                        
             }
 
             return checkpointsPassedMap;
+        }
+
+        private static void GetThroughCheckPoint(List<string> linesInAFile, int index, List<string> checkpointsPassedMap)
+        {
+            var previousPath = linesInAFile[index - 1];
+            var currentPath = linesInAFile[index];
+
+            var entryPointFrom = previousPath.IndexOf('C') == -1 ? previousPath.IndexOf('_') : previousPath.IndexOf('C');
+            var entryPointTo = currentPath.IndexOf('C') == -1 ? currentPath.IndexOf('_') : currentPath.IndexOf('C');
+
+            if (entryPointFrom == entryPointTo)
+            {
+                checkpointsPassedMap.Add(currentPath.Replace(currentPath.IndexOf('C') == -1 ? "_" : "C", "|"));
+            }
+            else if (entryPointFrom > entryPointTo)
+            {
+                checkpointsPassedMap.Add(currentPath.Replace(currentPath.IndexOf('C') == -1 ? "_" : "C", "/"));
+            }
+            else if (entryPointFrom < entryPointTo)
+            {
+                checkpointsPassedMap.Add(currentPath.Replace(currentPath.IndexOf('C') == -1 ? "_" : "C", "\\"));
+            }
         }
 
         static IEnumerable<string> ReadFile(string filePath)
