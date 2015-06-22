@@ -8,7 +8,7 @@ namespace CodeEvalSolutions.JugglingWithZeros
 {
 	class JugglingWithZerosSolution
 	{
-		static void Main(string[] args)
+		static void _Main(string[] args)
 		{
 			if (args[0] != String.Empty)
 			{
