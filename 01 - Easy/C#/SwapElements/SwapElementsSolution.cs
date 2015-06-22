@@ -7,7 +7,7 @@ namespace CodeEvalSolutions.SwapElements
 {
     class SwapElementsSolution
     {
-        private static void Main(string[] args)
+        private static void _Main(string[] args)
         {
             if (args[0] != String.Empty)
             {
