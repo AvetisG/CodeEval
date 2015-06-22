@@ -9,7 +9,7 @@ namespace CodeEvalSolutions.QueryBoard
     {
         private static readonly int[,] _queryBoard = new int[256, 256];
 
-        static void Main(string[] args)
+        static void _Main(string[] args)
         {
             if (args[0] != String.Empty)
             {

@@ -48,6 +48,7 @@
     <Compile Include="CompressedSequence\CompressedSequenceSolution.cs" />
     <Compile Include="DataRecovery\DataRecoverySolution.cs" />
     <Compile Include="EvenNumbers\EvenNumbersSolution.cs" />
+    <Compile Include="FibonacciSeries\FibonacciSeriesSolution.cs" />
     <Compile Include="FileSize\FileSizeSolution.cs" />
     <Compile Include="FindAWriter\FindAWriterSolution.cs" />
     <Compile Include="HappyNumbers\HappyNumbersSolution.cs" />
@@ -93,6 +94,7 @@
     <Content Include="CompressedSequence\file.txt" />
     <Content Include="DataRecovery\file.txt" />
     <Content Include="EvenNumbers\file.txt" />
+    <Content Include="FibonacciSeries\file.txt" />
     <Content Include="FindAWriter\file.txt" />
     <Content Include="HappyNumbers\file.txt" />
     <Content Include="HexToDecimal\file.txt" />
