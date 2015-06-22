@@ -54,6 +54,7 @@
     <Compile Include="HappyNumbers\HappyNumbersSolution.cs" />
     <Compile Include="HexToDecimal\HexToDecimalSolution.cs" />
     <Compile Include="HiddenDigits\HiddenDigitsSolution.cs" />
+    <Compile Include="JugglingWithZeros\JugglingWithZerosSolution.cs" />
     <Compile Include="KnightMoves\KnightMovesSolution.cs" />
     <Compile Include="LongestWord\LongestWordSolution.cs" />
     <Compile Include="LowestUniqueNumber\LowestUniqueNumberSolution.cs" />
@@ -99,6 +100,7 @@
     <Content Include="HappyNumbers\file.txt" />
     <Content Include="HexToDecimal\file.txt" />
     <Content Include="HiddenDigits\file.txt" />
+    <Content Include="JugglingWithZeros\file.txt" />
     <Content Include="KnightMoves\file.txt" />
     <Content Include="LongestWord\file.txt" />
     <Content Include="LowestUniqueNumber\file.txt" />
