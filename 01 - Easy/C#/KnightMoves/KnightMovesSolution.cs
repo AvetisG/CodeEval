@@ -10,7 +10,7 @@ namespace CodeEvalSolutions.KnightMoves
 	    private const string _chessBoardC = "abcdefgh";
 	    private const string _chessBoardN = "12345678";
 
-	    private static void Main(string[] args)
+	    private static void _Main(string[] args)
 	    {
             if (args[0] != String.Empty)
 	        {

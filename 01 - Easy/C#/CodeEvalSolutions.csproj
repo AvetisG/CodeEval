@@ -62,6 +62,7 @@
     <Compile Include="NModM\NModMSolution.cs" />
     <Compile Include="OddNumbers\OddNumbersSolution.cs" />
     <Compile Include="PenultimateWord\PenultimateWordSolution.cs" />
+    <Compile Include="QueryBoard\QueryBoardSolution.cs" />
     <Compile Include="RacingChars\RacingCharsSolution.cs" />
     <Compile Include="RightmostChar\RightMostCharSolution.cs" />
     <Compile Include="RollerCoaster\RollerCoasterSolution.cs" />
@@ -104,6 +105,7 @@
     <Content Include="MultiplyLists\file.txt" />
     <Content Include="NModM\file.txt" />
     <Content Include="PenultimateWord\file.txt" />
+    <Content Include="QueryBoard\file.txt" />
     <Content Include="RacingChars\file.txt" />
     <Content Include="ReadMore\file.txt" />
     <Content Include="RightmostChar\file.txt" />
