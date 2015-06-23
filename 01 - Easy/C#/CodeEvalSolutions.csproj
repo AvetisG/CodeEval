@@ -45,6 +45,7 @@
     <Compile Include="ArmstrongNumbers\ArmstrongNumbersSolution.cs" />
     <Compile Include="BeautifulStrings\BeautifulStringsSolution.cs" />
     <Compile Include="BigDigits\BigDigitsSolution.cs" />
+    <Compile Include="CalculateDistance\CalculateDistanceSolution.cs" />
     <Compile Include="CapitalizeWords\CapitalizeWordsSolution.cs" />
     <Compile Include="CompressedSequence\CompressedSequenceSolution.cs" />
     <Compile Include="DataRecovery\DataRecoverySolution.cs" />
@@ -97,6 +98,7 @@
     <Content Include="ArmstrongNumbers\file.txt" />
     <Content Include="BeautifulStrings\file.txt" />
     <Content Include="BigDigits\file.txt" />
+    <Content Include="CalculateDistance\file.txt" />
     <Content Include="CapitalizeWords\file.txt" />
     <Content Include="CompressedSequence\file.txt" />
     <Content Include="DataRecovery\file.txt" />
