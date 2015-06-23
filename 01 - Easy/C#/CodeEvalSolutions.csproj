@@ -66,6 +66,7 @@
     <Compile Include="MorseCode\MorseCodeSolution.cs" />
     <Compile Include="MultiplicationTable\MultiplicationTableSolution.cs" />
     <Compile Include="MultiplyLists\MultiplyListsSolution.cs" />
+    <Compile Include="NiceAngles\NiceAnglesSolution.cs" />
     <Compile Include="NModM\NModMSolution.cs" />
     <Compile Include="OddNumbers\OddNumbersSolution.cs" />
     <Compile Include="PenultimateWord\PenultimateWordSolution.cs" />
@@ -118,6 +119,7 @@
     <Content Include="MixedContent\file.txt" />
     <Content Include="MorseCode\file.txt" />
     <Content Include="MultiplyLists\file.txt" />
+    <Content Include="NiceAngles\file.txt" />
     <Content Include="NModM\file.txt" />
     <Content Include="PenultimateWord\file.txt" />
     <Content Include="QueryBoard\file.txt" />
