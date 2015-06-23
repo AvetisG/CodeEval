@@ -58,6 +58,7 @@
     <Compile Include="JsonMenuIds\JsonMenuIdsSolution.cs" />
     <Compile Include="JugglingWithZeros\JugglingWithZerosSolution.cs" />
     <Compile Include="KnightMoves\KnightMovesSolution.cs" />
+    <Compile Include="LettercasePercentageRatio\LettercasePercentageRatioSolution.cs" />
     <Compile Include="LongestWord\LongestWordSolution.cs" />
     <Compile Include="LowestUniqueNumber\LowestUniqueNumberSolution.cs" />
     <Compile Include="MixedContent\MixedContentSolution.cs" />
@@ -107,6 +108,7 @@
     <Content Include="JsonMenuIds\file.txt" />
     <Content Include="JugglingWithZeros\file.txt" />
     <Content Include="KnightMoves\file.txt" />
+    <Content Include="LettercasePercentageRatio\file.txt" />
     <Content Include="LongestWord\file.txt" />
     <Content Include="LowestUniqueNumber\file.txt" />
     <Content Include="MatrixRotation\file.txt" />
