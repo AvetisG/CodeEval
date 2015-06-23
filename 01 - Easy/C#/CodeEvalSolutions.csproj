@@ -42,8 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AgeDistribution\AgeDistributionSolution.cs" />
+    <Compile Include="ArmstrongNumbers\ArmstrongNumbersSolution.cs" />
     <Compile Include="BeautifulStrings\BeautifulStringsSolution.cs" />
-    <Compile Include="Big Digits\BigDigitsSolution.cs" />
+    <Compile Include="BigDigits\BigDigitsSolution.cs" />
     <Compile Include="CapitalizeWords\CapitalizeWordsSolution.cs" />
     <Compile Include="CompressedSequence\CompressedSequenceSolution.cs" />
     <Compile Include="DataRecovery\DataRecoverySolution.cs" />
@@ -91,8 +92,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AgeDistribution\file.txt" />
+    <Content Include="ArmstrongNumbers\file.txt" />
     <Content Include="BeautifulStrings\file.txt" />
-    <Content Include="Big Digits\file.txt" />
+    <Content Include="BigDigits\file.txt" />
     <Content Include="CapitalizeWords\file.txt" />
     <Content Include="CompressedSequence\file.txt" />
     <Content Include="DataRecovery\file.txt" />
