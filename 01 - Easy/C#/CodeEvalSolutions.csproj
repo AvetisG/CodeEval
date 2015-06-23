@@ -71,6 +71,7 @@
     <Compile Include="QueryBoard\QueryBoardSolution.cs" />
     <Compile Include="RacingChars\RacingCharsSolution.cs" />
     <Compile Include="RightmostChar\RightMostCharSolution.cs" />
+    <Compile Include="RoadTrip\RoadTripSolution.cs" />
     <Compile Include="RollerCoaster\RollerCoasterSolution.cs" />
     <Compile Include="RomanNumerals\RomanNumeralsSolution.cs" />
     <Compile Include="SelfDescribingNumbers\SelfDescribingNumbersSolution.cs" />
@@ -121,6 +122,7 @@
     <Content Include="RacingChars\file.txt" />
     <Content Include="ReadMore\file.txt" />
     <Content Include="RightmostChar\file.txt" />
+    <Content Include="RoadTrip\file.txt" />
     <Content Include="RollerCoaster\file.txt" />
     <Content Include="RomanNumerals\file.txt" />
     <Content Include="SelfDescribingNumbers\file.txt" />
