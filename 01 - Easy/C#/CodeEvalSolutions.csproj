@@ -82,6 +82,7 @@
     <Compile Include="SlangFlavor\SlangFlavorSolution.cs" />
     <Compile Include="SplitTheNumber\SplitTheNumberSolution.cs" />
     <Compile Include="StringMask\StringMaskSolution.cs" />
+    <Compile Include="SumOfDigits\SumOfDigitsSolution.cs" />
     <Compile Include="SumOfIntegersFromFile\SumOfIntegersFromFileSolution.cs" />
     <Compile Include="SwapCase\SwapCaseSolution.cs" />
     <Compile Include="SwapElements\SwapElementsSolution.cs" />
@@ -135,6 +136,7 @@
     <Content Include="SlangFlavor\file.txt" />
     <Content Include="SplitTheNumber\file.txt" />
     <Content Include="StringMask\file.txt" />
+    <Content Include="SumOfDigits\file.txt" />
     <Content Include="SumOfIntegersFromFile\file.txt" />
     <Content Include="SwapCase\file.txt" />
     <Content Include="SwapElements\file.txt" />
