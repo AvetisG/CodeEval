@@ -65,6 +65,7 @@
     <Compile Include="LowestUniqueNumber\LowestUniqueNumberSolution.cs" />
     <Compile Include="MixedContent\MixedContentSolution.cs" />
     <Compile Include="MorseCode\MorseCodeSolution.cs" />
+    <Compile Include="MultiplesOfANumber\MultiplesOfANumberSolution.cs" />
     <Compile Include="MultiplicationTable\MultiplicationTableSolution.cs" />
     <Compile Include="MultiplyLists\MultiplyListsSolution.cs" />
     <Compile Include="NiceAngles\NiceAnglesSolution.cs" />
@@ -121,6 +122,7 @@
     <Content Include="MatrixRotation\file.txt" />
     <Content Include="MixedContent\file.txt" />
     <Content Include="MorseCode\file.txt" />
+    <Content Include="MultiplesOfANumber\file.txt" />
     <Content Include="MultiplyLists\file.txt" />
     <Content Include="NiceAngles\file.txt" />
     <Content Include="NModM\file.txt" />
