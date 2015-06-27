@@ -32,7 +32,7 @@ namespace CodeEvalSolutions.MinimumDistance
 
         private static long GetMinimumDistance(IOrderedEnumerable<int> addresses)
         {
-            long minimumDistanceSum = long.MaxValue;
+            long minimumDistanceSum = 700000;
             var minimumDistance = addresses.First();
             var maximumDistance = addresses.Last();
 
