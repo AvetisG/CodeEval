@@ -63,6 +63,7 @@
     <Compile Include="LongestWord\LongestWordSolution.cs" />
     <Compile Include="Lowercase\LowercaseSolution.cs" />
     <Compile Include="LowestUniqueNumber\LowestUniqueNumberSolution.cs" />
+    <Compile Include="MinimumDistance\MinimumDistanceSolution.cs" />
     <Compile Include="MixedContent\MixedContentSolution.cs" />
     <Compile Include="MorseCode\MorseCodeSolution.cs" />
     <Compile Include="MultiplesOfANumber\MultiplesOfANumberSolution.cs" />
@@ -122,6 +123,7 @@
     <Content Include="Lowercase\file.txt" />
     <Content Include="LowestUniqueNumber\file.txt" />
     <Content Include="MatrixRotation\file.txt" />
+    <Content Include="MinimumDistance\file.txt" />
     <Content Include="MixedContent\file.txt" />
     <Content Include="MorseCode\file.txt" />
     <Content Include="MultiplesOfANumber\file.txt" />
