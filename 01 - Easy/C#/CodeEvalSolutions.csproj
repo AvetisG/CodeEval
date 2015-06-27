@@ -47,6 +47,7 @@
     <Compile Include="BigDigits\BigDigitsSolution.cs" />
     <Compile Include="CalculateDistance\CalculateDistanceSolution.cs" />
     <Compile Include="CapitalizeWords\CapitalizeWordsSolution.cs" />
+    <Compile Include="ComparePoints\ComparePointsSolution.cs" />
     <Compile Include="CompressedSequence\CompressedSequenceSolution.cs" />
     <Compile Include="DataRecovery\DataRecoverySolution.cs" />
     <Compile Include="EvenNumbers\EvenNumbersSolution.cs" />
@@ -107,6 +108,7 @@
     <Content Include="BigDigits\file.txt" />
     <Content Include="CalculateDistance\file.txt" />
     <Content Include="CapitalizeWords\file.txt" />
+    <Content Include="ComparePoints\file.txt" />
     <Content Include="CompressedSequence\file.txt" />
     <Content Include="DataRecovery\file.txt" />
     <Content Include="EvenNumbers\file.txt" />
