@@ -84,6 +84,7 @@
     <Compile Include="SimpleSorting\SimpleSortingSolution.cs" />
     <Compile Include="SlangFlavor\SlangFlavorSolution.cs" />
     <Compile Include="SplitTheNumber\SplitTheNumberSolution.cs" />
+    <Compile Include="StepwiseWord\StepwiseWordSolution.cs" />
     <Compile Include="StringMask\StringMaskSolution.cs" />
     <Compile Include="SumOfDigits\SumOfDigitsSolution.cs" />
     <Compile Include="SumOfIntegersFromFile\SumOfIntegersFromFileSolution.cs" />
@@ -141,6 +142,7 @@
     <Content Include="SimpleSorting\file.txt" />
     <Content Include="SlangFlavor\file.txt" />
     <Content Include="SplitTheNumber\file.txt" />
+    <Content Include="StepwiseWord\file.txt" />
     <Content Include="StringMask\file.txt" />
     <Content Include="SumOfDigits\file.txt" />
     <Content Include="SumOfIntegersFromFile\file.txt" />
@@ -152,6 +154,7 @@
     <Content Include="WithoutRepititions\file.txt" />
     <Content Include="WordToDigit\file.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
