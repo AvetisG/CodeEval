@@ -7,7 +7,7 @@ namespace CodeEvalSolutions.MultiplesOfANumber
 {
     class MultiplesOfANumberSolution
     {
-        private static void Main(string[] args)
+        private static void _Main(string[] args)
         {
             if (args[0] != String.Empty)
             {
