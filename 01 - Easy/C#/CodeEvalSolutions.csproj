@@ -85,6 +85,7 @@
     <Compile Include="RomanNumerals\RomanNumeralsSolution.cs" />
     <Compile Include="SelfDescribingNumbers\SelfDescribingNumbersSolution.cs" />
     <Compile Include="SetIntersection\SetIntersectionSolution.cs" />
+    <Compile Include="ShortestRepetition\ShortestRepetitionSolution.cs" />
     <Compile Include="SimpleSorting\SimpleSortingSolution.cs" />
     <Compile Include="SlangFlavor\SlangFlavorSolution.cs" />
     <Compile Include="SplitTheNumber\SplitTheNumberSolution.cs" />
@@ -147,6 +148,7 @@
     <Content Include="RomanNumerals\file.txt" />
     <Content Include="SelfDescribingNumbers\file.txt" />
     <Content Include="SetIntersection\file.txt" />
+    <Content Include="ShortestRepetition\file.txt" />
     <Content Include="SimpleSorting\file.txt" />
     <Content Include="SlangFlavor\file.txt" />
     <Content Include="SplitTheNumber\file.txt" />
