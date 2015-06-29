@@ -93,6 +93,7 @@
     <Compile Include="StringMask\StringMaskSolution.cs" />
     <Compile Include="SumOfDigits\SumOfDigitsSolution.cs" />
     <Compile Include="SumOfIntegersFromFile\SumOfIntegersFromFileSolution.cs" />
+    <Compile Include="SumOfPrimes\SumOfPrimes.cs" />
     <Compile Include="SwapCase\SwapCaseSolution.cs" />
     <Compile Include="SwapElements\SwapElementsSolution.cs" />
     <Compile Include="TheMajorElement\TheMajorElementSolution.cs" />
@@ -156,6 +157,7 @@
     <Content Include="StringMask\file.txt" />
     <Content Include="SumOfDigits\file.txt" />
     <Content Include="SumOfIntegersFromFile\file.txt" />
+    <Content Include="SumOfPrimes\file.txt" />
     <Content Include="SwapCase\file.txt" />
     <Content Include="SwapElements\file.txt" />
     <Content Include="SwapNumbers\file.txt" />
