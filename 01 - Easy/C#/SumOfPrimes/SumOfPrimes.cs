@@ -4,7 +4,7 @@ namespace CodeEvalSolutions.SumOfPrimes
 {
 	class SumOfPrimesSolution
 	{
-		static void Main(string[] args)
+		static void _Main(string[] args)
 		{
 			int currentNumber = 2;
 			int index = 0;
