@@ -10,7 +10,7 @@ namespace CodeEvalSolutions.WorkingExperience
 	{
 		private static readonly string[] _shortenedMonthNames = CultureInfo.CurrentCulture.DateTimeFormat.AbbreviatedMonthNames;
 
-		static void Main(string[] args)
+		static void _Main(string[] args)
 		{
 			//if (args[0] != String.Empty)
 			{

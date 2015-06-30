@@ -76,6 +76,7 @@
     <Compile Include="NModM\NModMSolution.cs" />
     <Compile Include="OddNumbers\OddNumbersSolution.cs" />
     <Compile Include="PenultimateWord\PenultimateWordSolution.cs" />
+    <Compile Include="PrimePalindrome\PrimePalindromeSolution.cs" />
     <Compile Include="QueryBoard\QueryBoardSolution.cs" />
     <Compile Include="RacingChars\RacingCharsSolution.cs" />
     <Compile Include="ReverseWords\ReverseWords.cs" />
