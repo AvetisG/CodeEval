@@ -56,6 +56,7 @@
     <Compile Include="FibonacciSeries\FibonacciSeriesSolution.cs" />
     <Compile Include="FileSize\FileSizeSolution.cs" />
     <Compile Include="FindAWriter\FindAWriterSolution.cs" />
+    <Compile Include="FizzBuzz\FizzBuzzSolution.cs" />
     <Compile Include="HappyNumbers\HappyNumbersSolution.cs" />
     <Compile Include="HexToDecimal\HexToDecimalSolution.cs" />
     <Compile Include="HiddenDigits\HiddenDigitsSolution.cs" />
@@ -122,6 +123,7 @@
     <Content Include="EvenNumbers\file.txt" />
     <Content Include="FibonacciSeries\file.txt" />
     <Content Include="FindAWriter\file.txt" />
+    <Content Include="FizzBuzz\file.txt" />
     <Content Include="HappyNumbers\file.txt" />
     <Content Include="HexToDecimal\file.txt" />
     <Content Include="HiddenDigits\file.txt" />

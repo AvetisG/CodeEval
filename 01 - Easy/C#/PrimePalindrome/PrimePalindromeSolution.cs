@@ -4,7 +4,7 @@ namespace CodeEvalSolutions.PrimePalindrome
 {
 	class PrimePalindromeSolution
 	{
-		static void Main(string[] args)
+		static void _Main(string[] args)
 		{
 			bool shouldStop = false;
 			int counter = 1000;
