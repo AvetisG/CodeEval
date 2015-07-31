@@ -15,12 +15,12 @@ namespace CodeEvalSolutions.HappyNumbers
 
                 foreach (var singleLine in linesInAFile)
                 {
-                    Console.WriteLine(DetectHappyNumber(singleLine.ToCharArray()));
+                    Console.WriteLine(FindHappyNumber(singleLine.ToCharArray()));
                 }
             }
         }
 
-        private static int DetectHappyNumber(char[] numberArray)
+        private static int FindHappyNumber(char[] numberArray)
         {
             int sum = 0;
             List<int> cycleTracker = new List<int>();
